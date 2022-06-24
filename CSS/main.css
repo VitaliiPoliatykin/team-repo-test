@@ -1751,4 +1751,19 @@ img {
     height: 294px;
   }
 }
+
+.customer-reviews__container {
+  overflow: hidden;
+}
+
+.customer-reviews__zone {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 0;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
 /*# sourceMappingURL=main.css.map */
