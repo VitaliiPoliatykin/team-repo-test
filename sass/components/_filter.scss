@@ -1,0 +1,42 @@
+.gallery .filter__btn.current {
+  color: var(--secondary-txt-cl);
+  background-color: var(--accent-cl);
+}
+
+.filter__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+
+  @include mg(tablet) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @include mg(desktop) {
+    margin-bottom: 50px;
+  }
+}
+
+.filter__item {
+  margin-right: 8px;
+  margin-bottom: 15px;
+
+  @include mg(tablet) {
+    margin-bottom: 0px;
+  }
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.filter__btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  padding: 6px 22px;
+}

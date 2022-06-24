@@ -1,0 +1,36 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-cl);
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @include mg(tablet) {
+    padding: 26px 0px;
+    margin-right: 88px;
+  }
+  @include mg(desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+  }
+  &__header {
+    color: #000000;
+  }
+
+  &__footer {
+    color: var(--secondary-txt-cl);
+  }
+
+  &--footer {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+  }
+}

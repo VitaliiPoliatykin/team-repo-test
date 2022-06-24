@@ -1,0 +1,22 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100%;
+
+  // mobile from 480px
+  @include mg(mobile) {
+    width: 480px;
+  }
+  //   tablet
+  @include mg(tablet) {
+    width: 768px;
+  }
+  //   desktop
+  @include mg(desktop) {
+    width: 1200px;
+  }
+}
